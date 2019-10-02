@@ -118,11 +118,14 @@ a{
 .body h1{
   display: inline;
 }
+.profile-img{
+  float: right;
+}
 .profile-img img{
   border-radius: 50%;
   height:60px;
   width: 60px;
-  float: right;
+  
   
 
 }

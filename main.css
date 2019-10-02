@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 1000px;
+}
+.container
+{
+
+  height: 100%;
+  width: 30%; 
+  background: #3d4f5d;
+  position: fixed;
+  /* display: inline-block;*/
+  margin-top: 0px;
+  float: left;
+  top: 0;
+  
+}
+#side{
+  
+
+height: 100%;
+position: fixed;
+padding:0 20px 0 0;
+top: 30%;
+right: 70%;
+}
+#side > form{
+  padding: 10px 0;
+  text-align-last: right;
+}
+#side > h1{
+  
+  color: white;
+  padding: 10px 0;
+  text-align-last: right;
+}
+#side > p{
+  color: #b0cadb;
+  font-size: 1.3em;
+  padding: 10px 0;
+  text-align-last: right;
+  
+}
+ input[type="submit"]{
+  border: 2px solid #b0cadb;
+  border-radius: 3px;
+  padding: 10px;
+  background: #3d4f5d;
+  color: white;
+  cursor: pointer;
+ 
+}
+input[type="submit"]:focus{
+  color: cyan;
+}
+a{
+  text-decoration:none;
+  color: #75c1ec;
+}
+#main-page{
+  width:67%;
+  /*display: inline-block;*/
+  /*background: lightblue;*/
+  margin-top: 3%;
+  margin-left: 31%
+}
+.header{
+  
+  color: gray;
+  border-bottom: 1px solid grey;
+  padding:2px 0 5px 0;
+  font-size: 10px;
+  letter-spacing: 2px;
+
+}
+.posts{
+  padding-left: 10px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+  padding-top: 20px;
+}
+.body div{
+  color:white;
+  display: inline-block;
+  padding:2px 12px;
+}
+.body p{
+  padding-top: 20px;
+  line-height: 2;
+}
+.body h1{
+  display: inline;
+}
+.profile-img img{
+  border-radius: 50%;
+  height:60px;
+  width: 60px;
+  float: right;
+  
+
+}
+.space{
+  padding-top: 50px;
+
+}
+#not-visited-img img{
+
+display: inline;
+height:300px;
+  width: 350px;
+  margin: 0 auto;
+  padding:30px 10px ; 
+
+}
+#links {
+  text-align:center; 
+  margin-left: 31%;
+}
+
+
+#links a{
+   padding:0 15px;
+    color: gray;
+}
+#links a:hover{
+  border-bottom: 1px solid #3d4f5d;
+}

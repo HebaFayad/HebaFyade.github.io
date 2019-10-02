@@ -44,16 +44,25 @@ right: 70%;
   text-align-last: right;
   
 }
- input[type="submit"]{
+ /*input[type="submit"]*/
+ #side-form{
+   padding: 15px 0 10px 100px;
+   
+  
+ }
+ #side-form a{
+  display: inline-block; 
   border: 2px solid #b0cadb;
   border-radius: 3px;
-  padding: 10px;
+  padding: 10px 10px;
   background: #3d4f5d;
   color: white;
   cursor: pointer;
+  margin: 5px 5px;
+
  
 }
-input[type="submit"]:focus{
+#side-form a:active{
   color: cyan;
 }
 a{
@@ -61,11 +70,12 @@ a{
   color: #75c1ec;
 }
 #main-page{
-  width:67%;
+  width:68%;
   /*display: inline-block;*/
   /*background: lightblue;*/
   margin-top: 3%;
-  margin-left: 31%
+  /* margin-left: 31%;*/
+  float: right;
 }
 .header{
   
@@ -88,6 +98,19 @@ a{
   display: inline-block;
   padding:2px 12px;
 }
+#css{
+  background-color:#5aba59;
+}
+#java1{
+  background-color:#4d85d1;
+}
+#java2{
+  background-color:#df2d4f;
+}
+#not{
+  background-color:#999;
+}
+
 .body p{
   padding-top: 20px;
   line-height: 2;
@@ -108,24 +131,27 @@ a{
 
 }
 #not-visited-img img{
-
-display: inline;
-height:300px;
+  height:300px;
   width: 350px;
   margin: 0 auto;
   padding:30px 10px ; 
 
 }
-#links {
-  text-align:center; 
-  margin-left: 31%;
+footer{
+  width: 69%;
+  float:right;
 }
 
+#links {
+  text-align:center; 
+  clear: both;
+}
 
 #links a{
    padding:0 15px;
     color: gray;
 }
+
 #links a:hover{
   border-bottom: 1px solid #3d4f5d;
 }
